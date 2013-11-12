@@ -1,6 +1,11 @@
 
 /* Global rules*/
 html {
-	height: 100%;
+	height: 100%; /*ДА, ЭТО ИЗВРАТ ASP.net*/
 	width: 100%;
+}  
+
+body {
+	width: 100%; /*ДА, ЭТО ИЗВРАТ ASP.net*/
+	height: 100%; 
 }
