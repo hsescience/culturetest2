@@ -33,9 +33,28 @@ body {
 }
 
 .right_f_h {
+	position: relative;
+	float: right;
 	width: 518px;
 	height: 100%
 }
+
+#personinput {
+	outline: none;
+	margin: 0 auto;
+	font-family: "SegoeUI";	
+	font-size: 20px;
+	background-color: transparent;
+	text-align: center;
+	color: #fff;
+	border: none;
+}
+
+
+
+
+
+
 
 #header {
 	margin-top: 0px;
