@@ -9,3 +9,22 @@ body {
 	width: 100%; /*ДА, ЭТО ИЗВРАТ ASP.net*/
 	height: 100%; 
 }
+
+#content_block {
+	position: relative;
+}
+
+.footer_header {
+	position: relative;
+	height: 120px;
+	width: 1000px;
+	background: #454;
+}
+
+#header {
+	margin-top: 0px;
+}
+
+#footer {
+	margin-bottom: 0px;
+}
