@@ -8,17 +8,33 @@ html {
 body {
 	width: 100%; /*ДА, ЭТО ИЗВРАТ ASP.net*/
 	height: 100%; 
+	background-color: #ecf0f1;
 }
 
 #content_block {
 	position: relative;
+	width: 729px;
+	margin: 0 auto;
 }
 
 .footer_header {
 	position: relative;
-	height: 120px;
-	width: 1000px;
-	background: #454;
+	height: 82px;
+	background-color: #79a8c0;
+	width: 100%;
+}
+
+.left_f_h {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 211px;
+	background-color: #308ab7;
+}
+
+.right_f_h {
+	width: 518px;
+	height: 100%
 }
 
 #header {
