@@ -40,19 +40,33 @@ body {
 }
 
 #personinput {
+	top: 21;
+	position: absolute;
 	outline: none;
 	margin: 0 auto;
 	font-family: "SegoeUI";	
-	font-size: 20px;
+	font-size: 22px;
 	background-color: transparent;
 	text-align: center;
 	color: #fff;
 	border: none;
 }
 
+input::-webkit-input-placeholder {
+	font-family: "SegoeUI";	
+	font-size: 22px;
+	color: #fff;
+}
 
+input:-moz-placeholder {
+	font-family: "SegoeUI";	
+	font-size: 22px;
+	color: #fff;
+}
 
-
+input::-ms-clear {
+      display: none;
+  }
 
 
 
