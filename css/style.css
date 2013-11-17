@@ -135,6 +135,15 @@ input::-ms-clear {
 	width: 100%;
 }
 
+.list ul li{
+list-style-type: none;
+}
+.list li {
+	text-align: left;
+	display: list-item;
+	text-transform: none;
+}
+
 .listblock {	
 	position: relative;
 	margin-left: 10px;
