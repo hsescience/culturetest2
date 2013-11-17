@@ -31,7 +31,7 @@ body {
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	top: 6px;
+	top: 8px;
 }
 
 .left_f_h {
@@ -50,7 +50,7 @@ body {
 }
 
 #personinput {
-	top: 23;
+	top: 25;
 	position: absolute;
 	outline: none;
 	margin: 0 auto;
@@ -79,12 +79,35 @@ input::-ms-clear {
       display: none;
   }
 
-
-
 #header {
 	margin-top: 0px;
 }
 
 #footer {
 	margin-bottom: 0px;
+}
+
+.colons {
+	width: 100%;
+	font-family: SegoeUI;
+	font-size: 20px;
+}
+
+.colons p {
+	margin-left: 25px;
+}
+
+
+#statustext {
+	color: #4ca859;
+}
+
+#filialtext {
+	color: #9babb9;
+}
+
+.colonitem {
+	position: relative;
+	float: left;
+	width: 50%;
 }
