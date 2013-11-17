@@ -12,7 +12,8 @@
 		<script type="text/javascript">
     		jQuery(function()
     			{
-        			jQuery('.list').jScrollPane();
+        			jQuery('.list').jScrollPane(
+        				);
     			});
 		</script>
 
@@ -35,7 +36,8 @@
 
 						<div class = "colomnbutton" id = "statusbutton" title = "Выберете ваш статус относительно НИУ ВШЭ">
 							<input type = "hidden" name = "status" value = ""/>
-							<div class = "list">
+							<div class = "listblock">
+								<div class = "list">
 								<ul>
 								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
 								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
@@ -47,6 +49,7 @@
 								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
 								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
 								</ul>
+								</div>
 							</div>
 							<span class = "buttontext">Выберете свой статус</span>
 						</div>

@@ -128,9 +128,17 @@ input::-ms-clear {
 	width: 50%;
 }
 
-.list {	
+.list {
 	position: relative;
+	left: 5px;
+	height: 203px;
 	width: 100%;
+}
+
+.listblock {	
+	position: relative;
+	margin-left: 10px;
+	width: 300px;
 	z-index: 10;
     height: 203px;
     overflow: auto;
