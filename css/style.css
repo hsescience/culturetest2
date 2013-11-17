@@ -128,54 +128,7 @@ input::-ms-clear {
 	width: 50%;
 }
 
-.list {
 
-	position: relative;
-	left: 5px;
-	height: 100%;
-	width: 100%;
-}
-
-
-
-ul {
-	-webkit-padding-start: 0px;
-
-	margin: 0px;
-	margin-top: 2px;
-	list-style-type: none;
-	height: 100%;
-}
-
-ul li {
-	padding-top: 1px;
-	padding-bottom: 0.5px;
-}
-
-.listblock {	
-	margin-top: 0px;
-	display: block;
-	position: relative;
-	margin-left: 10px;
-	width: 300px;
-	z-index: 10;
-    height: 203px;
-}
-
-.specblock {
-	height: 10px;
-}
-
-.listitem {
-	position: relative;
-	padding: 2.6px;
-	color: #fff;
-	text-align: left;
-	padding-left: 20px;
-	font-family: SegoeUI;
-	font-size: 20px;
-	min-height: 26px;
-}
 
 .buttontext{
 	margin-top: 5px;
