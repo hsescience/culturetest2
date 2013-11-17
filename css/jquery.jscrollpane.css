@@ -19,13 +19,11 @@
 .jspVerticalBar
 {
 	position: absolute;
-	top: -1px;
-	right: 5;
-	width: 7px;
-	border: 1px solid transparent;
-	border-radius: 204px;
+	top: 0;
+	right: 0;
+	width: 16px;
 	height: 100%;
-	background: transparent;
+	background: red;
 }
 
 .jspHorizontalBar
@@ -56,41 +54,32 @@
 }
 
 .jspTrack
-{   
-	border: 1px solid transparent;
-	border-radius: 25px;
-	background: -webkit-linear-gradient(right, #878789 ,#707072);
-	background: -moz-linear-gradient(right, #878789 ,#707072);
-    background: -webkit-linear-gradient(right, #878789 ,#707072);
-    background: -o-linear-gradient(right, #878789 ,#707072); 
-    background: -ms-linear-gradient(right, #878789 ,#707072); 
-    background: linear-gradient(right, #878789 ,#707072);  
+{
+	background: #dde;
 	position: relative;
-
 }
 
 .jspDrag
 {
-	display: block !important;
-	background-image: url(polsunok.png);
+	background: #bbd;
 	position: relative;
-	top: 3px;
-	left: -4px;
-	width: 12.5px;
-	
+	top: 0;
+	left: 0;
+	cursor: pointer;
 }
 
 .jspHorizontalBar .jspTrack,
 .jspHorizontalBar .jspDrag
 {
 	float: left;
+	height: 100%;
 }
 
 .jspArrow
 {
 	background: #50506d;
 	text-indent: -20000px;
-	width: 10px;
+	display: block;
 	cursor: pointer;
 }
 
@@ -102,7 +91,7 @@
 
 .jspVerticalBar .jspArrow
 {
-	height: 2px;
+	height: 16px;
 }
 
 .jspHorizontalBar .jspArrow

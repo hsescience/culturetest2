@@ -9,6 +9,13 @@
 		<script type="text/javascript" src = "js/auto.js"></script>
 		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 		<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+		<script type="text/javascript">
+    		jQuery(function()
+    			{
+        			jQuery('.list').jScrollPane();
+    			});
+		</script>
+
 	</head>
 	<body>
 		<div id = "content_block"> 
@@ -30,6 +37,14 @@
 							<input type = "hidden" name = "status" value = ""/>
 							<div class = "list">
 								<ul>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
+								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
 								<li class = "listitem">Абитуриент НИУ ВШЭ</li>
 								</ul>
 							</div>
@@ -62,8 +77,6 @@
 	<!--Будущий счетчик-->
 	<script type="text/javascript">
 
-		var api = element.data('jsp');
-
-		window.onresize = function(){ api.reinitialise(s)}
+		
 	</script> 
 </html>
