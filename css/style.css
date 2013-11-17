@@ -129,23 +129,27 @@ input::-ms-clear {
 }
 
 .list {
+
 	position: relative;
 	left: 5px;
-	height: 203px;
+	height: 204px;
 	width: 100%;
 }
 
-.list ul li{
-list-style-type: none;
+ul {
+	-webkit-padding-start: 0px;
+	margin: 0px;
+	margin-top: 2px;
 }
-.list li {
-	text-align: left;
-	display: list-item;
-	text-transform: none;
-	width: 100%;
+
+ul li {
+	padding-top: 2px;
+	padding-bottom: 1px;
 }
 
 .listblock {	
+	margin-top: 3px;
+	display: block;
 	position: relative;
 	margin-left: 10px;
 	width: 300px;
