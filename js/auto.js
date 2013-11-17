@@ -13,8 +13,17 @@ function soglasieclick() {
 }
 
 function submitonclick() {
-	if (soglasion==false) {
-		alert('Вы не подвердили свое согласие на обработку ваших персональных данных');
-		
+	if (document.getElementById("personinput").value == ""){
+		alert("Вы не ввели свое ФИО");
+		document.auto.personname.focus();
+	}else {
+		if (soglasion==false) {
+			alert('Вы не подвердили свое согласие на обработку ваших персональных данных');
+			document.getElementById("soglasietext").focus();
+		}else{
+			document.auto.submit();
+		}
 	}
+
+		
 }
