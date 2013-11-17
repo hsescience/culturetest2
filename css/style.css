@@ -110,6 +110,7 @@ input::-ms-clear {
 	position: relative;
 	width: 314px;
 	height: 41px;
+	cursor: pointer;
 }
 
 #statusbutton{
