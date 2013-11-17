@@ -22,6 +22,16 @@ body {
 	height: 82px;
 	background-color: #79a8c0;
 	width: 100%;
+	
+}
+
+.footer_header p{
+	position: relative;
+	font-family: "SegoeUI";	
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	top: 6px;
 }
 
 .left_f_h {
@@ -40,12 +50,12 @@ body {
 }
 
 #personinput {
-	top: 21;
+	top: 23;
 	position: absolute;
 	outline: none;
 	margin: 0 auto;
 	font-family: "SegoeUI";	
-	font-size: 22px;
+	font-size: 20px;
 	background-color: transparent;
 	text-align: center;
 	color: #fff;
@@ -55,13 +65,13 @@ body {
 
 input::-webkit-input-placeholder {
 	font-family: "SegoeUI";	
-	font-size: 22px;
+	font-size: 20px;
 	color: #fff;
 }
 
 input:-moz-placeholder {
 	font-family: "SegoeUI";	
-	font-size: 22px;
+	font-size: 20px;
 	color: #fff;
 }
 

@@ -4,14 +4,15 @@
 		<title>Первая страница...</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="font/font.css">
+		<script type="text/javascript" src = "js/auto.js"></script>
 	</head>
 	<body>
 		<div id = "content_block"> 
-			<form name = "auto" action = ""> 
+			<form name = "auto" maction = "document.replace(HZ.html)"> 
 				<div class = "footer_header" id = "header">
 					<div class = "left_f_h"></div>
 					<div class = "right_f_h">
-							 <input type="text" name = "personname" id = "personinput" placeholder = "Представтесь, пожалуйста" title="Введите свое имя">
+						<input type="text" name = "personname" id = "personinput" placeholder = "Представтесь, пожалуйста" title="Введите свое имя"/>
 					</div>
 				</div>
 
@@ -19,9 +20,11 @@
 				</div>
 
 				<div class = "footer_header" id = "footer">
-					<div class = "left_f_h"></div>
+					<div class = "left_f_h">
+						<p title = "Вход, не забудьте ввести необходимые поля">Войти!</p>
+					</div>
 					<div class = "right_f_h">
-
+						<p title = "Согласие на обработку персональных данных">Да, я согласен(на) на обработку моих данных</p>
 					</div>
 				</div>
 		</form>
