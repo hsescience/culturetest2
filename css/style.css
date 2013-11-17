@@ -94,7 +94,7 @@ input::-ms-clear {
 }
 
 .colons p {
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 
@@ -106,8 +106,33 @@ input::-ms-clear {
 	color: #9babb9;
 }
 
+.colomnbutton{
+	position: relative;
+	width: 314px;
+	height: 41px;
+}
+
+#statusbutton{
+	background-color: #4ca859;
+}
+
+#filialbutton {
+	background-color: #9babb9;
+}
+
+
 .colonitem {
 	position: relative;
 	float: left;
 	width: 50%;
+}
+
+.buttontext{
+	margin-top: 5px;
+	position: absolute;
+	color: #fff;
+	text-align: left;
+	margin-left: 20px;
+	font-family: SegoeUI;
+	font-size: 20px;
 }

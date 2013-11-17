@@ -4,11 +4,12 @@
 		<title>Первая страница...</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="font/font.css">
+		<script type="text/javascript" src = "js/jquery-1.10.2.js"></script>
 		<script type="text/javascript" src = "js/auto.js"></script>
 	</head>
 	<body>
 		<div id = "content_block"> 
-			<form name = "auto" maction = "document.replace(HZ.html)"> 
+			<form name = "auto" method = "GET" action = "document.replace(HZ.html)"> 
 				<div class = "footer_header" id = "header">
 					<div class = "left_f_h"></div>
 					<div class = "right_f_h">
@@ -21,9 +22,15 @@
 				<div class = "colons">
 					<div class = "colonitem">
 						<p id = "statustext">Ваш статус относительно НИУ ВШЭ</p>
+
+						<div class = "colomnbutton" id = "statusbutton">
+							<span class = "buttontext">Выберете свой статус</span>
+						</div>
 					</div>
+
 					<div class = "colonitem">
 						<p id = "filialtext">Филиал НИУ ВШЭ</p>
+						<div class = "colomnbutton" id = "filialbutton"></div>
 					</div>
 					<div style = "clear:both;"></div>
 				</div>
