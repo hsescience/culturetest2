@@ -142,6 +142,7 @@ list-style-type: none;
 	text-align: left;
 	display: list-item;
 	text-transform: none;
+	width: 100%;
 }
 
 .listblock {	
