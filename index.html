@@ -4,22 +4,10 @@
 		<title>Первая страница...</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="font/font.css">
-		<link type="text/css" rel="stylesheet" href="css/jquery.jscrollpane.css"/>
-		<script type="text/javascript" src = "js/jquery-1.10.2.js"></script>
+		
+		
 		<script type="text/javascript" src = "js/auto.js"></script>
-		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
-		<script type="text/javascript">
-    		jQuery(function()
-    			{
-        			jQuery('.list').jScrollPane({
-        				verticalDragMaxHeight: 37, 
-        				verticalDragMinHeight: 37,
-        				showArrows: true
-        				}
-        				);
-    			});
-		</script>
+		
 
 	</head>
 	<body>
@@ -58,11 +46,11 @@
 				<div style = "clear:both; margin: 10px;"></div>
 
 				<div class = "footer_header" id = "footer">
-					<div class = "left_f_h">
+					<div class = "left_f_h" id = "submitbutton" onclick = "submitonclick();">
 						<p title = "Вход, не забудьте ввести необходимые поля">Войти!</p>
 					</div>
-					<div class = "right_f_h">
-						<p title = "Согласие на обработку персональных данных">Да, я согласен(на) на обработку моих данных</p>
+					<div class = "right_f_h" id = "soglasietext" onclick = " soglasieclick()">
+						<p  title = "Согласие на обработку персональных данных">Да, я согласен(на) на обработку моих данных</p>
 					</div>
 				</div>
 		</form>

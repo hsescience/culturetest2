@@ -139,3 +139,7 @@ input::-ms-clear {
 	font-family: SegoeUI;
 	font-size: 20px;
 }
+
+#submitbutton, #soglasietext {
+	cursor: pointer;
+}
